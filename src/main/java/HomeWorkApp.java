@@ -13,7 +13,7 @@ public class HomeWorkApp {
     }
 // задание 3
     public static void checkSumSign() {
-        int a = 2;
+        int a = 3;
         int b = 6;
 
         if (a + b > 0) {
