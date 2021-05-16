@@ -13,8 +13,8 @@ public class HomeWorkApp {
     }
 // задание 3
     public static void checkSumSign() {
-        int a = 4;
-        int b = 6;
+        int a = 2;
+        int b = 2;
 
         if (a + b > 0) {
             System.out.println("Cумма положительная");
