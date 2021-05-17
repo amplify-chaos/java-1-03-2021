@@ -1,14 +1,14 @@
-package Lesson1lvl2;
+package Lesson1ver2;
 
-public class Cat implements JumpableRunnable {
+public class Robot implements RunJump {
     int maxHeight;
     int maxLength;
-    String nickname;
+    int codeName;
 
-    public Cat(int maxHeight, int maxLength, String nickname) {
+    public Robot(int maxHeight, int maxLength, int codeName) {
         this.maxHeight = maxHeight;
         this.maxLength = maxLength;
-        this.nickname = nickname;
+        this.codeName = codeName;
     }
 
     @Override
@@ -18,7 +18,7 @@ public class Cat implements JumpableRunnable {
 
     @Override
     public void jump() {
-        System.out.println("Cat jump");
+        System.out.println("Робот прыгает");
     }
 
     @Override
@@ -28,11 +28,11 @@ public class Cat implements JumpableRunnable {
 
     @Override
     public void run() {
-        System.out.println("Cat run");
+        System.out.println("Робот бежит");
     }
 
     @Override
     public String toString() {
-        return "Кот по кличке " + nickname;
+        return "Робот под номером " + codeName;
     }
 }

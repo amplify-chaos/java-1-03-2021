@@ -1,6 +1,6 @@
-package Lesson1lvl2;
+package Lesson1ver2;
 
-public class Wall implements Obstaclable {
+public class Wall implements Obstacle {
     int height;
 
     public Wall(int height) {
@@ -19,7 +19,7 @@ public class Wall implements Obstaclable {
 
     @Override
     public String toString() {
-        return "Стена высотой " + height + " м";
+        return "стену высотой " + height + " м";
     }
 }
 

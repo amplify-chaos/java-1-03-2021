@@ -1,9 +1,9 @@
-package Lesson1lvl2;
+package Lesson1ver2;
 
-public class RunningTrack implements Obstaclable {
+public class TreadMill implements Obstacle {
     int length;
 
-    public RunningTrack(int length) {
+    public TreadMill(int length) {
         this.length = length;
     }
 
@@ -19,7 +19,6 @@ public class RunningTrack implements Obstaclable {
 
     @Override
     public String toString() {
-        return "Беговая дорожка длиной " + length + " м";
+        return "беговую дорожку длиной " + length + " м";
     }
 }
-

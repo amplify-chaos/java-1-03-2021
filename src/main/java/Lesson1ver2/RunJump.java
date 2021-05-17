@@ -1,6 +1,6 @@
-package Lesson1lvl2;
+package Lesson1ver2;
 
-public interface JumpableRunnable {
+public interface RunJump {
     int getMaxHeight();
     void jump();
 

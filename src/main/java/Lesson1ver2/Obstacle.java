@@ -1,6 +1,6 @@
-package Lesson1lvl2;
+package Lesson1ver2;
 
-public interface Obstaclable {
+public interface Obstacle {
     boolean toRun(int maxLength);
     boolean toJump(int maxHeight);
 }
